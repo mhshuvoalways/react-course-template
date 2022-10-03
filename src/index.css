@@ -1,13 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .color1-text {
+    color: #0c3b2e;
+  }
+  .color1-bg {
+    background-color: #0c3b2e;
+  }
+  .color2-text {
+    color: #6d9773;
+  }
+  .color2-bg {
+    background-color: #6d9773;
+  }
+  .color3-text {
+    color: #ffba00;
+  }
+  .color3-bg {
+    background-color: #ffba00;
+  }
+  .color4-bg {
+    background-color: #056a4c;
+  }
+  .color5-bg {
+    background-color: #9dc860;
+  }
+  .color-readmore {
+    background-color: #d25525;
+  }
+  .color-readmore-text {
+    color: #d25525;
+  }
+  .rating-size {
+    font-size: 100px;
+  }
+  .usefulllinkimg1 {
+    clip-path: polygon(
+      30% 0%,
+      70% 0%,
+      100% 30%,
+      100% 70%,
+      70% 100%,
+      30% 100%,
+      0% 70%,
+      0% 30%
+    );
+  }
+  .usefulllinkimg2 {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  .usefulllinkimg3 {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+  .usefulllinkimg4 {
+    clip-path: polygon(
+      50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%
+    );
+  }
+  .usefulllinkimg5 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .usefulllinkimg6 {
+    clip-path: polygon(
+      0% 15%,
+      15% 15%,
+      15% 0%,
+      85% 0%,
+      85% 15%,
+      100% 15%,
+      100% 85%,
+      85% 85%,
+      85% 100%,
+      15% 100%,
+      15% 85%,
+      0% 85%
+    );
+  }
+  .employeeimg {
+    clip-path: polygon(
+      0% 15%,
+      15% 15%,
+      15% 0%,
+      85% 0%,
+      85% 15%,
+      100% 15%,
+      100% 85%,
+      85% 85%,
+      85% 100%,
+      15% 100%,
+      15% 85%,
+      0% 85%
+    );
+  }
+  .RSPBprogressBar {
+    height: 15px !important;
+  }
+  .review-star span {
+    font-size: 40px !important;
+  }
+  .review-star-2 span {
+    font-size: 30px !important;
+  }
 }
