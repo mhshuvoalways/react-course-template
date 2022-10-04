@@ -9,7 +9,7 @@ const UseFullLink = () => {
         <div className="flex gap-5 flex-wrap mt-10 justify-center">
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg1 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">
                 UPCOMING EVENTS FOR OCTOBER
               </p>
@@ -20,7 +20,7 @@ const UseFullLink = () => {
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg2 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">SHORT COURSES</p>
               <p className="color-readmore-text font-bold text-normal md:text-xl cursor-pointer">
                 READ MORE {">"}
@@ -29,7 +29,7 @@ const UseFullLink = () => {
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg3 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">BROWN BAGS</p>
               <p className="color-readmore-text font-bold text-normal md:text-xl cursor-pointer">
                 READ MORE {">"}
@@ -38,7 +38,7 @@ const UseFullLink = () => {
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg4 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">FITNESS WORKSHOPS</p>
               <p className="color-readmore-text font-bold text-normal md:text-xl cursor-pointer">
                 READ MORE {">"}
@@ -47,7 +47,7 @@ const UseFullLink = () => {
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg5 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">TEAM CELEBRATIONS</p>
               <p className="color-readmore-text font-bold text-normal md:text-xl cursor-pointer">
                 READ MORE {">"}
@@ -56,7 +56,7 @@ const UseFullLink = () => {
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-10 items-center bg-white p-7 rounded-lg w-full lg:w-5/12">
             <img src={Course} alt="" className="usefulllinkimg6 w-20 h-20 md:w-32 md:h-32" />
-            <div className="space-y-8 text-center lg:text-start">
+            <div className="space-y-8 text-center lg:text-start w-7/12 sm:w-full">
               <p className="text-normal md:text-xl text-black font-bold">
                 OTHER OFFICE ACTIVITIES
               </p>

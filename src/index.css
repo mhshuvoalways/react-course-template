@@ -106,12 +106,12 @@ body {
     );
   }
   .RSPBprogressBar {
-    height: 15px !important;
+    height: 12px !important;
   }
   .review-star span {
     font-size: 40px !important;
   }
   .review-star-2 span {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
 }

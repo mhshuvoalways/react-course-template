@@ -7,7 +7,7 @@ const AddCard = ({ modalHandler }) => {
   return (
     <div className="p-5">
       <div className="flex justify-between">
-        <p>ADD NEW CARD</p>
+        <p className="text-2xl">ADD NEW CARD</p>
         <i className="fas fa-times cursor-pointer" onClick={modalHandler} />
       </div>
       <div>

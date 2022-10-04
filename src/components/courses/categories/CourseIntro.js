@@ -24,36 +24,24 @@ const CourseIntro = () => {
               Let's make learning fun!
             </p>
             <div className="flex gap-2 md:gap-5 flex-wrap mt-8 justify-center lg:justify-start">
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  DEVELOPMENT
-                </p>
-              </div>
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  MARKETING&DESIGN
-                </p>
-              </div>
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  BUSINESS
-                </p>
-              </div>
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  ART&MUSIC
-                </p>
-              </div>
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  PRODUCTIVITY
-                </p>
-              </div>
-              <div>
-                <p className="bg-white text-xs rounded-full cursor-pointer w-40 py-3 text-center text-black">
-                  HEALTH&FITNESS
-                </p>
-              </div>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                DEVELOPMENT
+              </p>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                MARKETING&DESIGN
+              </p>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                BUSINESS
+              </p>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                ART&MUSIC
+              </p>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                PRODUCTIVITY
+              </p>
+              <p className="bg-white text-xs rounded-full cursor-pointer w-36 lg:w-48 py-3 text-center text-black">
+                HEALTH&FITNESS
+              </p>
             </div>
             <div className="flex items-center justify-center lg:justify-start gap-10 mt-10">
               <img src={Instgram} alt="" className="cursor-pointer" />
