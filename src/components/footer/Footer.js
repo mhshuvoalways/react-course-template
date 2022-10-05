@@ -22,7 +22,7 @@ const Footer = () => {
             <li className="cursor-pointer">Affiliates</li>
             <li className="cursor-pointer">Media Kit</li>
             <li className="cursor-pointer">Get the app</li>
-            <li className="cursor-pointer">Partnership</li> 
+            <li className="cursor-pointer">Partnership</li>
           </ul>
         </div>
         <div>
@@ -43,6 +43,15 @@ const Footer = () => {
             SU​BSCRIBE
           </p>
         </div>
+      </div>
+      <div className="pb-5 text-center">
+        <a
+          href="https://mlhnshuvo.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          All right reserved MH Shuvo
+        </a>
       </div>
     </div>
   );
